@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+*{
+    /* overflow-y: hidden; */
+    background-color: rgb(242, 242, 242);
+}
+
+.body{
+    margin: 16%;
+    text-align: center;
+}
+
+.body h1{
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 75vh;
+    height: 2px;
+    background-color: #000;
+    margin: 10px auto;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+.body h4{
+    font-weight: 400;
+    font-size: 27px;
+    font-style: italic;
+}

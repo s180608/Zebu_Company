@@ -1,0 +1,27 @@
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.service {
+    flex: calc(33.33% - 20px);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+.service h4{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.icon img{
+    width: 23px;
+    height: 23px;
+    text-align: end;
+}

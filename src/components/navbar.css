@@ -1,0 +1,36 @@
+.nav-bar {
+    color: #020202;
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #0b0b0b;
+    font-weight: normal; 
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease; 
+}
+
+.nav-list li a:hover {
+    font-weight: bold; 
+    border-bottom: 2px solid black; 
+}
+
+
+.nav-list li a.active {
+    font-weight: bold; 
+    border-bottom: 2px solid black;
+}

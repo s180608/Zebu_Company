@@ -1,0 +1,22 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f1f0f0;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+p{
+    text-align: center;
+}
+
+
